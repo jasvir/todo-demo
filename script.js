@@ -63,7 +63,7 @@
                     taskText.setAttribute("for", itemId)
                     taskText.textContent = item.task
                     editButton = document.createElement("button")
-                    editButton.textContent = "Edit"
+                    editButton.textContent = "Modify"
                     editButton.setAttribute("id", 'edit-button')
                     editButton.setAttribute("onclick", "editMode(" + index + ")")
                 } else {
