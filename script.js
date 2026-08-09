@@ -12,7 +12,7 @@
             localStorage.setItem("array", stringList)
         }
 
-        function addToListNow() {
+        function addToList() {
             const addItem = document.getElementById("addNewItem").value
             listItems.push({task: addItem, checked: false, edit: false})
             storeArray()
