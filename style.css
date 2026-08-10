@@ -5,15 +5,17 @@
     margin-left: 10px;
 }
 
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 2px 1px;
-    cursor: pointer;
+/* pico.express guard git:application_df90639e-af97-4c5e-8ef9-3c7592dabdc6:sha1:72c7210bab066f3d3df97ef4c93c43e82b6a9bfc:css:css-rule-addition:ad3e5d6ad73905ed55cf default=off */
+
+:where(:root[data-pico-express-css-patches~="pe_1f538ce927b987026d369bae63fd8df6791baf362d38939fe6db02966e00d51c"]) button {
+    background-color: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-0); /* Green */
+    border: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-1);
+    color: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-2);
+    padding: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-3);
+    text-align: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-4);
+    text-decoration: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-5);
+    display: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-6);
+    font-size: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-7);
+    margin: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-8);
+    cursor: var(--pico-express-sha1-72c7210bab066f3d3df97ef4c93c43e82b6a9bfc-ad3e5d6ad73905ed55cf-9);
 }
